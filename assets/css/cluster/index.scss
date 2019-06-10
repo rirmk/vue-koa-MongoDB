@@ -1,0 +1,64 @@
+.page-cluster{
+  ul{
+    list-style: none;
+    margin-right:20px;
+
+    li{
+      box-sizing: border-box;
+      margin-top: 10px;
+      background: #FFF;
+      border: 1px solid #E5E5E5;
+      border-radius: 4px;
+      font-size: 14px;
+      line-height: 20px;
+      padding: 10px 0px;
+
+      &:nth-child(1){
+        padding: 10px 20px;
+      }
+
+      .cluster-head,
+      .cluster-headBorder{
+        font-size: 15px;
+        line-height: 25px;
+      }
+      .cluster-headBorder{
+        padding:0 20px 10px;
+        border-bottom: 1px solid #13D1BE;
+      }
+      .cluster-title{
+        width: 60%;
+        margin: 20px 0;
+      }
+      .cluster-tel{
+        width:40%;
+      }
+      .cluster-location{
+        margin:20px 0;
+      }
+      .cluster-specLocat{
+        width:80%;
+        margin:20px 0;
+      }
+      .cluster-img{
+        margin:20px 0;
+      }
+      .cluster-tips{
+        padding:0 20px;
+        font-size:14px;
+        >dd{
+          border-bottom: 1px solid #e2e2e2;
+          padding:10px 0;
+
+          &:last-child{
+            border-bottom:none;
+            padding: 10px 0 0 0;
+          }
+        }
+      }
+    }
+  }
+  .error {
+    color: red;
+  }
+}
